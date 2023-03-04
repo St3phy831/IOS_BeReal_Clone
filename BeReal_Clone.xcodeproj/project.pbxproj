@@ -12,6 +12,7 @@
 		441FBFC029B3107300F383E1 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FBFBF29B3107300F383E1 /* PostCell.swift */; };
 		441FBFC329B3229400F383E1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FBFC229B3229400F383E1 /* PostViewController.swift */; };
 		449122ED29B3E70000C36460 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449122EC29B3E70000C36460 /* Post.swift */; };
+		449122F029B3E83D00C36460 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449122EF29B3E83D00C36460 /* DateFormatter.swift */; };
 		44B7E96429B07AAD005B9946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96329B07AAD005B9946 /* AppDelegate.swift */; };
 		44B7E96629B07AAD005B9946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96529B07AAD005B9946 /* SceneDelegate.swift */; };
 		44B7E96829B07AAD005B9946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96729B07AAD005B9946 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		441FBFBF29B3107300F383E1 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		441FBFC229B3229400F383E1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		449122EC29B3E70000C36460 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		449122EF29B3E83D00C36460 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		44B7E96029B07AAD005B9946 /* BeReal_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeReal_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B7E96329B07AAD005B9946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B7E96529B07AAD005B9946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			path = Post;
 			sourceTree = "<group>";
 		};
+		449122EE29B3E82600C36460 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				449122EF29B3E83D00C36460 /* DateFormatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		44B7E95729B07AAD005B9946 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		44B7E96229B07AAD005B9946 /* BeReal_Clone */ = {
 			isa = PBXGroup;
 			children = (
+				449122EE29B3E82600C36460 /* Extensions */,
 				441FBFC129B3227200F383E1 /* Post */,
 				441FBFBC29B3101600F383E1 /* Feed */,
 				441FBFB929B2FEB700F383E1 /* Models */,
@@ -210,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449122F029B3E83D00C36460 /* DateFormatter.swift in Sources */,
 				44F0316329B13ED9008077DB /* LoginViewController.swift in Sources */,
 				449122ED29B3E70000C36460 /* Post.swift in Sources */,
 				44B7E96829B07AAD005B9946 /* ViewController.swift in Sources */,
