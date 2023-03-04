@@ -209,6 +209,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Logout" style="plain" id="Rb0-Tu-XaZ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="onLogoutBtnTapped:" destination="tkV-7P-QmB" id="INT-ml-H99"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
