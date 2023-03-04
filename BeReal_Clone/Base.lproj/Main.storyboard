@@ -245,6 +245,9 @@
                                         <color key="tintColor" systemColor="tintColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="Select Photo"/>
+                                        <connections>
+                                            <action selector="didTapAttachPhoto:" destination="ufU-Rp-3nm" eventType="touchUpInside" id="jVo-uq-o0N"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder Image" translatesAutoresizingMaskIntoConstraints="NO" id="W88-ix-q9M">
                                         <rect key="frame" x="6" y="84.333333333333371" width="361" height="361"/>
@@ -275,6 +278,12 @@
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="captionTextField" destination="Ypo-Lb-JxC" id="aMD-7i-NnO"/>
+                        <outlet property="photoImage" destination="W88-ix-q9M" id="Cky-Jx-4Us"/>
+                        <outlet property="postBarItem" destination="rzW-s4-J4T" id="q90-f2-eR9"/>
+                        <outlet property="selectPhotoBtn" destination="lxM-ja-dsW" id="5rm-fG-WxN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvk-pu-pbF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
