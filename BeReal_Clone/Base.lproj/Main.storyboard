@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1fc-Me-bFR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AvY-v5-zZ2">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -100,7 +100,7 @@
         <!--BeReal-->
         <scene sceneID="wEq-to-snF">
             <objects>
-                <viewController id="tkV-7P-QmB" customClass="FeedViewController" customModule="BeReal_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedViewController" id="tkV-7P-QmB" customClass="FeedViewController" customModule="BeReal_Clone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OPE-NB-LEJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -297,7 +297,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ctW-Bz-xQB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AvY-v5-zZ2" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="AvY-v5-zZ2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dGP-Ch-k8W">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -315,7 +315,7 @@
         <!--Navigation Controller-->
         <scene sceneID="brH-Fd-CLg">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1fc-Me-bFR" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationViewController" automaticallyAdjustsScrollViewInsets="NO" id="1fc-Me-bFR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="WyQ-Cq-Toy">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
