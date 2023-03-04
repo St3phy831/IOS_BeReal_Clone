@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ParseSwift
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
