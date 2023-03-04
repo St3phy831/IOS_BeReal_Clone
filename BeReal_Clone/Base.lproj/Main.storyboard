@@ -53,6 +53,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Login">
                                                     <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onLoginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bj2-cR-JPy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1c9-T1-ZDi">
                                                 <rect key="frame" x="0.0" y="51.333333333333314" width="77.333333333333329" height="34.333333333333343"/>
