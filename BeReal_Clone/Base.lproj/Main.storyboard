@@ -140,6 +140,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Signup">
                                             <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSignUpTapped:" destination="86s-vh-OEi" eventType="touchUpInside" id="Asn-Sd-akF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
