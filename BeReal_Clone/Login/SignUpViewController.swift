@@ -41,8 +41,10 @@ class SignUpViewController: UIViewController {
 
             switch result {
             case .success(let user):
-
                 print("✅ Successfully signed up user \(user)")
+                
+                // Post a notification that the user has successfully signed up.
+                NotificationCenter.default.post(name: Notification.Name("login"), object: nil)
 
             case .failure(let error):
                 // Failed sign up
