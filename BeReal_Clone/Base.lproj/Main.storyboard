@@ -280,8 +280,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="captionTextField" destination="Ypo-Lb-JxC" id="aMD-7i-NnO"/>
-                        <outlet property="photoImage" destination="W88-ix-q9M" id="Cky-Jx-4Us"/>
                         <outlet property="postBarItem" destination="rzW-s4-J4T" id="q90-f2-eR9"/>
+                        <outlet property="previewImageView" destination="W88-ix-q9M" id="hcA-U5-q44"/>
                         <outlet property="selectPhotoBtn" destination="lxM-ja-dsW" id="5rm-fG-WxN"/>
                     </connections>
                 </viewController>

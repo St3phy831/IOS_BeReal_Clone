@@ -12,8 +12,10 @@ import ParseSwift
 class PostViewController: UIViewController {
     @IBOutlet weak var captionTextField: UITextField!
     @IBOutlet weak var selectPhotoBtn: UIButton!
-    @IBOutlet weak var photoImage: UIImageView!
+    @IBOutlet weak var previewImageView: UIImageView!
     @IBOutlet weak var postBarItem: UIBarButtonItem!
+    
+    private var pickedImage: UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +52,7 @@ class PostViewController: UIViewController {
     
     private func presentImagePicker() {
         // Create a configuration object
-        var config = PHPickerConfiguration(photoLibrary: PHPhotoLibrary.shared())
+        var config = PHPickerConfiguration()
 
         // Set the filter to only show images as options (i.e. no videos, etc.).
         config.filter = .images
@@ -67,7 +69,7 @@ class PostViewController: UIViewController {
         // Set the picker delegate so we can receive whatever image the user picks.
         picker.delegate = self
 
-        // Present the picker.
+        // Present the picker
         present(picker, animated: true)
     }
 }
@@ -96,10 +98,52 @@ extension PostViewController {
         
         present(alertController, animated: true, completion: nil)
     }
+    
+    private func showAlert(description: String? = nil) {
+        let alertController = UIAlertController(title: "Oops...", message: "\(description ?? "Please try again...")", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default)
+        alertController.addAction(action)
+        present(alertController, animated: true)
+    }
 }
 
 extension PostViewController: PHPickerViewControllerDelegate {
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-    
+        // Dismiss the picker
+        picker.dismiss(animated: true)
+        
+        // Make sure we have a non-nil item provider
+        guard let provider = results.first?.itemProvider,
+              // Make sure the provider can load a UIImage
+              provider.canLoadObject(ofClass: UIImage.self) else { return }
+        
+        // Load a UIImage from the provider
+        provider.loadObject(ofClass: UIImage.self) { [weak self] object, error in
+            
+            // Make sure we can cast the returned object to a UIImage
+            guard let image = object as? UIImage else {
+                
+                // ❌ Unable to cast to UIImage
+                self?.showAlert()
+                return
+            }
+            
+            // Check for and handle any errors
+            if let error = error {
+                self?.showAlert(description: error.localizedDescription)
+                return
+            } else {
+                
+                // UI updates (like setting image on image view) should be done on main thread
+                DispatchQueue.main.async {
+                    
+                    // Set image on preview image view
+                    self?.previewImageView.image = image
+                    
+                    // Set image to use when saving post
+                    self?.pickedImage = image
+                }
+            }
+        }
     }
 }
