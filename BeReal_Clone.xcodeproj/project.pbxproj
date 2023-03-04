@@ -11,6 +11,7 @@
 		441FBFBE29B3103200F383E1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FBFBD29B3103200F383E1 /* FeedViewController.swift */; };
 		441FBFC029B3107300F383E1 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FBFBF29B3107300F383E1 /* PostCell.swift */; };
 		441FBFC329B3229400F383E1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441FBFC229B3229400F383E1 /* PostViewController.swift */; };
+		449122ED29B3E70000C36460 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449122EC29B3E70000C36460 /* Post.swift */; };
 		44B7E96429B07AAD005B9946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96329B07AAD005B9946 /* AppDelegate.swift */; };
 		44B7E96629B07AAD005B9946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96529B07AAD005B9946 /* SceneDelegate.swift */; };
 		44B7E96829B07AAD005B9946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7E96729B07AAD005B9946 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		441FBFBD29B3103200F383E1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		441FBFBF29B3107300F383E1 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		441FBFC229B3229400F383E1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		449122EC29B3E70000C36460 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		44B7E96029B07AAD005B9946 /* BeReal_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeReal_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B7E96329B07AAD005B9946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B7E96529B07AAD005B9946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				441FBFBA29B2FED000F383E1 /* User.swift */,
+				449122EC29B3E70000C36460 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F0316329B13ED9008077DB /* LoginViewController.swift in Sources */,
+				449122ED29B3E70000C36460 /* Post.swift in Sources */,
 				44B7E96829B07AAD005B9946 /* ViewController.swift in Sources */,
 				44B7E96429B07AAD005B9946 /* AppDelegate.swift in Sources */,
 				44B7E96629B07AAD005B9946 /* SceneDelegate.swift in Sources */,
