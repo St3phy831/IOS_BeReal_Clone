@@ -51,13 +51,13 @@ class PostCell: UITableViewCell {
         }
     }
     
-//    override func prepareForReuse() {
-//        super.prepareForReuse()
-//        // Cancel image download
-//        // Reset image view image.
-//        postImage.image = nil
-//
-//        // Cancel image request.
-//        imageDataRequest?.cancel()
-//    }
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        // Cancel image download
+        // Reset image view image.
+        postImageView.image = nil
+
+        // Cancel image request.
+        imageDataRequest?.cancel()
+    }
 }
