@@ -19,7 +19,7 @@ The following **optional** features are implemented:
 
 - [ ] Users can pull to refresh their feed and see a loading indicator
 - [x] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [x] Users can see time of photo upload in the feed	
+- [ ] Users can see location and time of photo upload in the feed
 - [x] User is able to logout
 - [ ] User stays logged in when app is closed and open again	
 
@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [GIPHY CAPTURE](https://giphy.com/apps/giphycapture)  
