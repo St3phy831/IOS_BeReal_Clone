@@ -1,26 +1,26 @@
-# Project 5 - *Name of App Here*
+# Project 5 - *BeReal_Clone*
 
-Submitted by: **Your Name Here**
+Submitted by: **Stephanie Hernandez**
 
-**Name of your app** is an app that ... [TODO] 
+**BeReal_Clone** is an app that mimics the popular app, which allows users to post a photo of what they’re currently doing upon receiving a random notification during the day. However, in this app, users are able to make posts and view their friends posts at any time of the day.
 
-Time spent: **X** hours spent in total
+Time spent: **5.5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] User can register a new account
-- [ ] User can log in with newly created account
-- [ ] App has a feed of posts when user logs in
-- [ ] User can upload a new post which takes in a picture from photo library and a caption	
+- [x] User can register a new account
+- [x] User can log in with newly created account
+- [x] App has a feed of posts when user logs in
+- [x] User can upload a new post which takes in a picture from photo library and a caption	
  
 The following **optional** features are implemented:
 
 - [ ] Users can pull to refresh their feed and see a loading indicator
-- [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed	
-- [ ] User is able to logout
+- [x] Users can infinite-scroll in their feed to see past the 10 most recent photos
+- [x] Users can see time of photo upload in the feed	
+- [x] User is able to logout
 - [ ] User stays logged in when app is closed and open again	
 
 
@@ -32,10 +32,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [GIPHY CAPTURE](https://giphy.com/apps/giphycapture)  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -43,11 +43,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- I had trouble setting the navigation title to white, but I was able to do so by setting the theme to dark. Other than that, I had no challenges.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Stephanie Hernandez & CodePath]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
