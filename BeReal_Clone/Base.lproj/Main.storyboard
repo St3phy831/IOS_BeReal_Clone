@@ -209,6 +209,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
+                                            <outlet property="blurView" destination="e7d-j2-cSh" id="jOx-f6-K2O"/>
                                             <outlet property="captionLabel" destination="fpK-tx-pp8" id="Jx7-af-CTk"/>
                                             <outlet property="dateLabel" destination="Q1L-Fp-y62" id="mpe-e0-0tH"/>
                                             <outlet property="postImageView" destination="ILJ-wu-Yu3" id="YxT-Ei-2ab"/>
