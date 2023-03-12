@@ -10,7 +10,7 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] User can upload unique photo from photo album because I don't have a physical IOS device
+- [x] User can upload unique photo from photo album **because I don't have a physical IOS device**
 - [x] User session persists when application is closed and relaunched
 - [x] Users are able to log out and return to sign in page
 - [x] Users are NOT able to see other photos until they upload their own	
