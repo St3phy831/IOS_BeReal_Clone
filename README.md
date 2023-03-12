@@ -10,7 +10,7 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] User can launch camera to take photo instead of photo library (user uploads unique photo from photo album because I don't have a physical iOS device)
+- [x] User can upload unique photo from photo album because I don't have a physical IOS device
 - [x] User session persists when application is closed and relaunched
 - [x] Users are able to log out and return to sign in page
 - [x] Users are NOT able to see other photos until they upload their own	
@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough_pt2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [GIPHY CAPTURE](https://giphy.com/apps/giphycapture)
